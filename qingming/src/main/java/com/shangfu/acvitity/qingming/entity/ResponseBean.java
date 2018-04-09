@@ -1,7 +1,5 @@
 package com.shangfu.acvitity.qingming.entity;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 import java.util.Date;
 
 /**
@@ -55,7 +53,7 @@ public class ResponseBean<T> {
         this.message = message;
     }
 
-    public static <T> ResponseBean<T> error(String msg,  T data) {
+    public static <T> ResponseBean<T> error(String msg, T data) {
         return new ResponseBean<>(200, data, msg);
     }
 

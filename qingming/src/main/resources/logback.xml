@@ -80,7 +80,7 @@
     <!--<dataSource class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
     <!--<driverClass>com.mysql.jdbc.Driver</driverClass>-->
     <!--<url>jdbc:mysql://127.0.0.1:3306/databaseName</url>-->
-    <!--<user>root</user>-->
+    <!--<User>root</User>-->
     <!--<password>root</password>-->
     <!--</dataSource>-->
     <!--</connectionSource>-->
